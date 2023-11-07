@@ -1,5 +1,5 @@
 {
-    "name": "alice/configsubmit",
+    "name": "alice/conf",
     "description": "This is an Alice configuration package",
     "type": "library",
     "license": "MIT",
@@ -9,10 +9,9 @@
             "email": "danial.zulfiqar@developers.studio"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "alice/configsubmit": "1.0.0" 
-
+        "alice/conf": "1.0.0"
     },
     "extra": {
         "laravel": {
