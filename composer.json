@@ -1,5 +1,5 @@
 {
-    "name": "alice/config",
+    "name": "alice/config1",
     "description": "This is an Alice configuration package",
     "type": "library",
     "license": "MIT",
