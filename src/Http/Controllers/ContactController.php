@@ -12,7 +12,7 @@ class ContactController extends Controller
     //
     public function index(){
         // return view('contact::contact');
-        return "hello ddfdgdfgdfgdfd";
+        return "hello qadir";
     }
 
     public function send(Request $request){
