@@ -9,9 +9,7 @@
             "email": "danial.zulfiqar@developers.studio"
         }
     ],
-    "require": {
-        // Add any dependencies your package may require here
-    },
+    "require": {},
     "extra": {
         "laravel": {
             "providers": [
