@@ -9,6 +9,7 @@
             "email": "danial.zulfiqar@developers.studio"
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
     "extra": {
         "laravel": {
