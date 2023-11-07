@@ -1,6 +1,6 @@
 {
     "name": "alice/config",
-    "description": "this a alice configuration",
+    "description": "This is an Alice configuration package",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,8 +9,9 @@
             "email": "danial.zulfiqar@developers.studio"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        // Add any dependencies your package may require here
+    },
     "extra": {
         "laravel": {
             "providers": [
@@ -18,13 +19,9 @@
             ]
         }
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
-            "Alice\\Config": "src/"
-
-            // "Laravel\\Tinker\\Tests\\": "tests/",
-            // "App\\": "tests/fixtures/app",
-            // "One\\Two\\": "tests/fixtures/vendor/one/two"
+            "Alice\\Config\\": "src/"
         }
     }
 }
