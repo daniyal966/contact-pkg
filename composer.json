@@ -9,8 +9,10 @@
             "email": "danial.zulfiqar@developers.studio"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {},
+    "minimum-stability": "dev",
+    "require": {
+        "alice/conf": "2.0.0" 
+    },
     "extra": {
         "laravel": {
             "providers": [
