@@ -10,9 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "alice/conf": "2.0.0" 
-    },
+    "require": {},
     "extra": {
         "laravel": {
             "providers": [
