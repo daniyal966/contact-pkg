@@ -12,16 +12,17 @@
     "minimum-stability": "dev",
     "require": {
     },
+   
+    "autoload": {
+        "psr-4": {
+            "Alice\\Config\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
                 "Alice\\Config\\ContactServiceProvider"
             ]
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "Alice\\Config\\": "src/"
         }
     }
 }
