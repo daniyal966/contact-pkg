@@ -1,0 +1,30 @@
+{
+    "name": "alice/config",
+    "description": "this a alice configuration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "daniyal966",
+            "email": "danial.zulfiqar@developers.studio"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alice\\Config\\ContactServiceProvider"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alice\\Config": "src/"
+
+            // "Laravel\\Tinker\\Tests\\": "tests/",
+            // "App\\": "tests/fixtures/app",
+            // "One\\Two\\": "tests/fixtures/vendor/one/two"
+        }
+    }
+}
