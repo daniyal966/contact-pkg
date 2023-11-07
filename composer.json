@@ -1,5 +1,5 @@
 {
-    "name": "alice/config1",
+    "name": "alice/config2",
     "description": "This is an Alice configuration package",
     "type": "library",
     "license": "MIT",
@@ -10,7 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "alice/config2": "1.0.0" 
+
+    },
     "extra": {
         "laravel": {
             "providers": [
