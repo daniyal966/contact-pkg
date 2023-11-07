@@ -1,5 +1,5 @@
 {
-    "name": "alice/config2",
+    "name": "alice/configSubmit",
     "description": "This is an Alice configuration package",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "alice/config2": "1.0.0" 
+        "alice/configSubmit": "1.0.0" 
 
     },
     "extra": {
